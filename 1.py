@@ -55,10 +55,15 @@ if ((a % 5 == 0 and a % 10 == 0 or a % 15 == 0) and (a % 30 != 0)):
     print('true')
 else:
     print('false')
-'''
+
 print("x y z")
 for x in range(2):
     for y in range(2):
         for z in range(2):
             if not (x == z or x <= y and z):
                 print(x, y, z)
+                
+import math
+
+print(math.sqrt(811))
+print(f"{811**0.5:.4f}")'''
